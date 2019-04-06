@@ -1,23 +1,27 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 
 //components
-import HeaderNav from './components/HeaderNav'
+import Home from './components/Home'
 import Logo from './components/Logo'
-import Info from './components/Info';
-import Contact from './components/Contact';
 
 //styling
 import './assets/css/index.css'
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <HeaderNav />
-        <Logo />
-        <Info />
-        <Contact />
+    const App = () => (
+      <div>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/signup' component={Logo} />
+        </Switch>
       </div>
+    )
+    return (
+      <Switch>
+        <App />
+      </Switch>
     );
   }
 }
