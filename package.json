@@ -1,0 +1,19 @@
+{
+  "name": "reactshoestore",
+  "version": "1.0.0",
+  "description": "shoe store site built on react and express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Andrew Westgerdes",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
