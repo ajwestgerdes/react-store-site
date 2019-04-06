@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
     render() {
@@ -24,7 +25,9 @@ class Home extends Component {
                         <a class="navbar-brand mx-auto" href="#">Shoe Store</a>
                         <ul class="form-inline ml-auto my-2 my-lg-0">
                             <i class="fas fa-user-plus"></i>
-                            <button class="btn btn-dark my-2 my-sm-0" id="signup-btn" type="submit">Sign Up</button>
+                            <Link to={'./signup'}>
+                                <button class="btn btn-dark my-2 my-sm-0" variant="raised" id="signup-btn" type="submit">Sign Up</button>
+                            </Link>
                         </ul>
                     </div>
                 </nav>
