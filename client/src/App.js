@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 //components
 import Home from './components/Home'
-import Logo from './components/Logo'
+import Signup from './components/Signup'
 
 //styling
 import './assets/css/index.css'
@@ -14,7 +14,7 @@ class App extends Component {
       <div>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route path='/signup' component={Logo} />
+          <Route path='/signup' component={Signup} />
         </Switch>
       </div>
     )
