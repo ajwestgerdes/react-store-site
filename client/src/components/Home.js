@@ -13,16 +13,16 @@ class Home extends Component {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Womens</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Mens</a>
+                                <a class="nav-link" href="#brand">Brands</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Brands</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
-                        <a class="navbar-brand mx-auto" href="#">Shoe Store</a>
+                        <a class="navbar-brand mx-auto nav-logo" href="#top">Shoe Store</a>
                         <ul class="form-inline ml-auto my-2 my-lg-0">
                             <i class="fas fa-user-plus"></i>
                             <Link to={'./signup'}>
@@ -34,39 +34,26 @@ class Home extends Component {
                 <header class="mainheader">
 
                 </header>
-                <section id="projects">
-                    <div class="container-fluid">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="card row-sm-6">
-                                <img class="card-img-top" src="../assets/images/pepeHands.jpg" alt="Card image cap" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </p>
-                                    <a href="#" class="btn card-btn-color text-white">Go somewhere</a>
-                                </div>
-                            </div>
-                            <div class="card row-sm-6">
-                                <img class="card-img-top" src="../assets/images/pepeHands.jpg" alt="Card image cap" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </p>
-                                    <a href="#" class="btn card-btn-color text-white">Go somewhere</a>
-                                </div>
-                            </div>
-                            <div class="card row-sm-6">
-                                <img class="card-img-top" src="../assets/images/pepeHands.jpg" alt="Card image cap" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                  </p>
-                                    <a href="#" class="btn card-btn-color text-white">Go somewhere</a>
-                                </div>
-                            </div>
+                <section id="about">
+                    <div class="info-container row">
+                        <div class="col-md-6 info-img">
+                            <img src={require('../assets/images/shoeMain.jpg')} class="rounded-circle img-fluid" alt="" />
+                        </div>
+                        <div class="col-md-6">
+                            <h4>About Us</h4>
+                            <p class="text-muted">We are shoe store here is a little about us</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="brand">
+                    <hr class="divider my-4" />
+                    <div class="info-container row">
+                        <div class="col-md-6">
+                            <h4>Brands We Carry</h4>
+                            <p class="text-muted">Here are some of the brands we carry in our store</p>
+                        </div>
+                        <div class="col-md-6 info-img">
+                            <img src={require('../assets/images/shoeMain.jpg')} class="rounded-circle img-fluid" alt="" />
                         </div>
                     </div>
                 </section>
@@ -88,7 +75,7 @@ class Home extends Component {
                             </div>
                             <div class="col-lg-4 mr-auto text-center">
                                 <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                                <a class="d-block">shoes@gmail.com</a>
+                                <a class="d-block" href="#email">shoes@gmail.com</a>
                             </div>
                         </div>
                     </div>

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 header.mainheader {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
@@ -35,24 +39,15 @@ header.mainheader {
     }
   }
   
-  .about-container {
+  .info-container {
     background-color: white;
-    margin: 30px 0px 30px 0px;
+    margin: 80px 200px 80px 200px;
   }
-  
-  .self-img {
-    border-radius: 50%;
-    padding: 10px;
+
+  .info-img {
+    text-align: center;
   }
-  
-  .card {
-    margin: 20px 30px 20px 30px;
-  }
-  
-  .card-btn-color {
-    background-color: #6699cc !important;
-  }
-  
+
   .contact-container {
     margin: 30px 0px 30px 0px;
   }
@@ -67,4 +62,8 @@ header.mainheader {
   color: #343a40;
   margin: 0px 5px 0px 15px;
   font-size: 1.2em;
+}
+
+.nav-logo{
+padding-right:30px;
 }
