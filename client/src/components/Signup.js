@@ -11,9 +11,9 @@ export class Signup extends Component {
                         <div class="card card-signin my-5">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Sign Up For Our Newsletter</h5>
-                                <form class="form-signin">
+                                <form method="post" action="/signup" class="form-signin">
                                     <div class="form-label-group">
-                                        <input type="text" id="input-user" class="form-control" placeholder="First Name" required autofocus />
+                                        <input type="text" name="email" id="input-user" class="form-control" placeholder="First Name" required autofocus />
                                         <label for="inputUser">First Name</label>
                                     </div>
 
@@ -27,7 +27,7 @@ export class Signup extends Component {
                                         <label for="inputPass">Email</label>
                                     </div>
                                     <Link to={"/"}>
-                                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign Up</button>
+                                        <button class="btn btn-lg btn-primary btn-block text-uppercase" value="Signup" type="submit">Sign Up</button>
                                     </Link>
                                     <hr class="my-4" />
                                 </form>

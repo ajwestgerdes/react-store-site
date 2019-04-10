@@ -6,11 +6,11 @@ const app = express();
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, 'client/public')));
 
-// An api endpoint that returns a short list of items
-app.get('/api/getList', (req, res) => {
-    var list = ["item1", "item2", "item3"];
-    res.json(list);
-    console.log('Sent list of items');
+app.post("/signup", function (req, res) {
+    var firstname = req.body.firstname;
+    var lastname = request.body.lastname;
+    var email = request.body.email;
+    console.log("Post Received: %s %s %s", firstname, lastname, email);
 });
 
 // Handles any requests that don't match the ones above
