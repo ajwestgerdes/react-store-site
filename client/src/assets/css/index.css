@@ -7,7 +7,7 @@ header.mainheader {
     padding-bottom: calc(10rem - 72px);
     background: url("../images/shoeMain.jpg");
     opacity: 0.85;
-    filter: alpha(opacity=85); /* For IE8 and earlier */
+    filter: alpha(opacity=85);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
