@@ -41,10 +41,15 @@ header.mainheader {
   
   .info-container {
     background-color: white;
-    margin: 80px 200px 80px 200px;
+    padding: 100px 100px 80px 100px;
   }
 
   .info-img {
+    text-align: center;
+    padding: 0px 40px 0px 40px
+  }
+
+  .info {
     text-align: center;
   }
 

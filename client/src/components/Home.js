@@ -6,10 +6,6 @@ class Home extends Component {
         return (
             <body>
                 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
@@ -36,24 +32,24 @@ class Home extends Component {
                 </header>
                 <section id="about">
                     <div class="info-container row">
-                        <div class="col-md-6 info-img">
-                            <img src={require('../assets/images/shoeMain.jpg')} class="rounded-circle img-fluid" alt="" />
-                        </div>
                         <div class="col-md-6">
+                            <img src={require('../assets/images/shoeMain.jpg')} class="img-fluid rounded-circle info-img" alt="" />
+                        </div>
+                        <div class="col-md-6 text-center">
                             <h4>About Us</h4>
                             <p class="text-muted">We are shoe store here is a little about us</p>
                         </div>
                     </div>
                 </section>
+                <hr class="divider my-4" />
                 <section id="brand">
-                    <hr class="divider my-4" />
                     <div class="info-container row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 info">
                             <h4>Brands We Carry</h4>
                             <p class="text-muted">Here are some of the brands we carry in our store</p>
                         </div>
-                        <div class="col-md-6 info-img">
-                            <img src={require('../assets/images/shoeMain.jpg')} class="rounded-circle img-fluid" alt="" />
+                        <div class="col-md-6">
+                            <img src={require('../assets/images/shoeMain.jpg')} class="img-fluid rounded-circle info-img" alt="" />
                         </div>
                     </div>
                 </section>
