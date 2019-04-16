@@ -1,27 +1,29 @@
+//Main app where all the components come together to form the web application
+
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import AppNavbar from './components/AppNavbar';
+import FitList from './components/AppList';
+import ItemModal from './components/AppModal';
+import { Container } from 'reactstrap';
 
-//components
-import Home from './components/Home'
-import Signup from './components/Signup'
+import { Provider } from 'react-redux';
+import store from './store';
 
-//styling
-import './assets/css/index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 class App extends Component {
   render() {
-    const App = () => (
-      <div>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/signup' component={Signup} />
-        </Switch>
-      </div>
-    )
     return (
-      <Switch>
-        <App />
-      </Switch>
+      <Provider store={store}>
+        <div className="App">
+          <AppNavbar />
+          <Container>
+            <ItemModal />
+            <FitList />
+          </Container>
+        </div>
+      </Provider>
     );
   }
 }
