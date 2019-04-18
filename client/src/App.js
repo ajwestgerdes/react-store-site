@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import AppNavbar from './components/AppNavbar';
-import FitList from './components/AppList';
+import AppList from './components/AppList';
 import ItemModal from './components/AppModal';
 import { Container } from 'reactstrap';
 
@@ -20,7 +20,7 @@ class App extends Component {
           <AppNavbar />
           <Container>
             <ItemModal />
-            <FitList />
+            <AppList />
           </Container>
         </div>
       </Provider>
