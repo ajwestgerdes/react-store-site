@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const path = require('path')
 
-const userInfo = require('./routes/api/signup');
+const userSignup = require('./routes/api/signup');
 
 const app = express();
 
@@ -22,7 +22,7 @@ mongoose
     .catch(err => console.log(err));
 
 //use routes
-app.use('/api/signup', userInfo);
+app.use('/api/signup', userSignup);
 
 //serve static assets in production
 if (process.env.NODE_ENV === 'production') {

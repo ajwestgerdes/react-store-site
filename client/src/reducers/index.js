@@ -1,8 +1,8 @@
-//Where all the reducers meet
+//Brings together all other reducers
 
 import { combineReducers } from 'redux';
-import itemReducer from './itemReducer';
+import signupReducer from './signupReducer';
 
 export default combineReducers({
-    item: itemReducer
+    signup: signupReducer
 });

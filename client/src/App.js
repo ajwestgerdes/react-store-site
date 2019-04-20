@@ -2,15 +2,13 @@
 
 import React, { Component } from 'react';
 import AppNavbar from './components/AppNavbar';
-import AppList from './components/AppList';
-import ItemModal from './components/AppModal';
 import { Container } from 'reactstrap';
-
+import Logo from './components/Logo'
 import { Provider } from 'react-redux';
 import store from './store';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './assets/css/App.css';
 
 class App extends Component {
   render() {
@@ -18,9 +16,9 @@ class App extends Component {
       <Provider store={store}>
         <div className="App">
           <AppNavbar />
+          <Logo />
           <Container>
-            <ItemModal />
-            <AppList />
+            
           </Container>
         </div>
       </Provider>
