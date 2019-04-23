@@ -1,7 +1,7 @@
 {
-  "name": "mern-boilerplate",
+  "name": "react-site",
   "version": "1.0.0",
-  "description": "A MERN boilerplate for quickly creating new web apps",
+  "description": "A shoe store webapp with MERN stack",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",

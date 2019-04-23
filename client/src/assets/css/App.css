@@ -1,9 +1,7 @@
 header.mainheader {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
-    background: url("../images/shoeMain.jpg");
     opacity: 0.85;
-    filter: alpha(opacity=85); /* For IE8 and earlier */
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -12,4 +10,8 @@ header.mainheader {
   
   header.mainheader h1 {
     font-size: 2.25rem;
+  }
+
+  .signupBox {
+margin: 10px 0px 20px 0px;
   }

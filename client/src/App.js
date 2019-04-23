@@ -18,7 +18,7 @@ class App extends Component {
           <AppNavbar />
           <Logo />
           <Container>
-            
+
           </Container>
         </div>
       </Provider>

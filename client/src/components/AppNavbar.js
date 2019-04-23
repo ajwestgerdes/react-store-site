@@ -62,13 +62,14 @@ class AppNavbar extends React.Component {
                             <NavItem>
                                 <Button color="info" onClick={this.toggle}>Signup</Button>
                                 <Modal isOpen={this.state.modal} toggle={this.toggle}>
-                                    <ModalHeader toggle={this.toggle}>Add To Tracker</ModalHeader>
+                                    <ModalHeader toggle={this.toggle}>Signup For Newsletters!</ModalHeader>
+                                    <p>Signup for our newsletter to </p>
                                     <ModalBody>
                                         <Form onSubmit={this.onSubmit}>
                                             <FormGroup>
-                                                <Input type="text" name="firstname" id="firstname" placeholder="First Name" onChange={this.onChange} />
-                                                <Input type="text" name="lastname" id="lastname" placeholder="Last Name" onChange={this.onChange} />
-                                                <Input type="text" name="email" id="email" placeholder="Email" onChange={this.onChange} />
+                                                <Input type="text" className="signupBox" name="firstname" id="firstname" placeholder="First Name" onChange={this.onChange} />
+                                                <Input type="text" className="signupBox" name="lastname" id="lastname" placeholder="Last Name" onChange={this.onChange} />
+                                                <Input type="text" className="signupBox" name="email" id="email" placeholder="Email" onChange={this.onChange} />
                                                 <Button color="success">Signup</Button>
                                             </FormGroup>
                                         </Form>
