@@ -47,37 +47,34 @@ class AppNavbar extends React.Component {
             <div>
                 <Navbar color="light" light expand="md">
                     <NavbarBrand href="/">Shoe Store</NavbarBrand>
-                    <NavbarToggler onClick={this.toggle} />
-                    <Collapse isOpen={this.state.isOpen} navbar>
-                        <Nav className="ml-auto" navbar>
-                            <NavItem>
-                                <NavLink href="#about">About</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="#brands">Brands</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink href="#brands">Contact</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <Button color="info" onClick={this.toggle}>Signup</Button>
-                                <Modal isOpen={this.state.modal} toggle={this.toggle}>
-                                    <ModalHeader toggle={this.toggle}>Signup For Newsletters!</ModalHeader>
-                                    <p>Signup for our newsletter to </p>
-                                    <ModalBody>
-                                        <Form onSubmit={this.onSubmit}>
-                                            <FormGroup>
-                                                <Input type="text" className="signupBox" name="firstname" id="firstname" placeholder="First Name" onChange={this.onChange} />
-                                                <Input type="text" className="signupBox" name="lastname" id="lastname" placeholder="Last Name" onChange={this.onChange} />
-                                                <Input type="text" className="signupBox" name="email" id="email" placeholder="Email" onChange={this.onChange} />
-                                                <Button color="success">Signup</Button>
-                                            </FormGroup>
-                                        </Form>
-                                    </ModalBody>
-                                </Modal>
-                            </NavItem>
-                        </Nav>
-                    </Collapse>
+                    <Nav className="ml-auto" navbar>
+                        <NavItem>
+                            <NavLink id="nav-sm" href="#about">About</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink id="nav-sm" href="#brands">Brands</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink id="nav-sm" href="#contact">Contact</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <Button color="info" onClick={this.toggle}>Sign Up</Button>
+                            <Modal isOpen={this.state.modal} toggle={this.toggle}>
+                                <ModalHeader toggle={this.toggle}>Signup For Newsletters!</ModalHeader>
+                                <p>Signup for our newsletter to </p>
+                                <ModalBody>
+                                    <Form onSubmit={this.onSubmit}>
+                                        <FormGroup>
+                                            <Input type="text" className="signupBox" name="firstname" id="firstname" placeholder="First Name" onChange={this.onChange} />
+                                            <Input type="text" className="signupBox" name="lastname" id="lastname" placeholder="Last Name" onChange={this.onChange} />
+                                            <Input type="text" className="signupBox" name="email" id="email" placeholder="Email" onChange={this.onChange} />
+                                            <Button color="success">Sign Up</Button>
+                                        </FormGroup>
+                                    </Form>
+                                </ModalBody>
+                            </Modal>
+                        </NavItem>
+                    </Nav>
                 </Navbar>
             </div>
         );
