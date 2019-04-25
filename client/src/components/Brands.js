@@ -13,9 +13,17 @@ export class Brands extends Component {
                 </div >
                 <div id="brands" class="brand-container">
                     <div class="row">
-                        <div class="about-text col-12 ">
-                            <h1 class="text-center" >About Us</h1>
-                            <p class="text-center">Here is some info about our shoe store</p>
+                        <div class="about-text col-6 col-md-6">
+                            <h1 class="text-center" >Women's Brands</h1>
+                            <p class="text-center">Here are the womens brands we have</p>
+                        </div>
+                        <div class="about-text col-6 col-md-6">
+                            <h1 class="text-center" >Mens Brands</h1>
+                            <p class="text-center">Here are the mens brands we have</p>
+                        </div>
+                        <div class="about-text col-6 col-md-6">
+                            <h1 class="text-center" >Kids Brands</h1>
+                            <p class="text-center">Here are the kids brands we have</p>
                         </div>
                     </div>
                 </div>
