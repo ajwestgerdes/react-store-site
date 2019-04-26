@@ -16,7 +16,9 @@ export class About extends Component {
                          We enjoy what we do and we think it shows!</p>
                     </div>
                 </div>
+                <hr class="divider my-4" />
             </div>
+            
         )
     }
 }

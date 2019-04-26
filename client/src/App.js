@@ -9,6 +9,7 @@ import Logo from './components/Logo'
 import AppNavbar from './components/AppNavbar';
 import About from './components/About';
 import Brands from './components/Brands';
+import Contact from './components/Contact'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/App.css';
@@ -22,6 +23,7 @@ class App extends Component {
           <Logo />
           <About />
           <Brands />
+          <Contact />
           <Container>
 
           </Container>

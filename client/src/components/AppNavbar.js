@@ -45,7 +45,7 @@ class AppNavbar extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar className="fixed-top" color="light" light expand="md">
                     <NavbarBrand href="/">Shoe Store</NavbarBrand>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
