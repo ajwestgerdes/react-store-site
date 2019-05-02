@@ -58,10 +58,10 @@ class AppNavbar extends React.Component {
                             <NavLink id="nav-sm" href="#contact">Contact</NavLink>
                         </NavItem>
                         <NavItem>
-                            <Button color="info" onClick={this.toggle}>Sign Up</Button>
+                            <Button color="info" className="signup-btn" onClick={this.toggle}>Sign Up</Button>
                             <Modal isOpen={this.state.modal} toggle={this.toggle}>
                                 <ModalHeader toggle={this.toggle}>Signup For Newsletters!</ModalHeader>
-                                <p>Signup for our newsletter to </p>
+                                <p className="modal-p">Signup for our newsletter to get notified when we have sales and events!</p>
                                 <ModalBody>
                                     <Form onSubmit={this.onSubmit}>
                                         <FormGroup>

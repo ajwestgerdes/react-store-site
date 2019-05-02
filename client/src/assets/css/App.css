@@ -2,13 +2,29 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar { 
+  display: none; 
+}
+
 .signupBox {
 margin: 10px 0px 20px 0px;
   }
 
+.signup-btn {
+  margin: 0px -10px 0px 10px
+}
+
+.modal-p {
+  margin-left: 15px;
+}
+
 .carousel-item > img { 
     width: 100%; 
     max-height:800px;
+  }
+
+  .about-container {
+    margin: 0px 200px 0px 200px;
   }
 
 .about-text {
@@ -76,4 +92,12 @@ margin: 10px 0px 20px 0px;
       display: none;
     }
 
+   }
+
+   .card {
+     border: none
+   }
+
+   .list-group-item {
+     border: none;
    }

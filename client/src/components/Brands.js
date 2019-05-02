@@ -11,22 +11,82 @@ export class Brands extends Component {
                     <img src={require('../assets/images/sas_logo.PNG')} alt="..." class="logo-img rounded-circle"></img>
                     <img src={require('../assets/images/dan_logo.PNG')} alt="..." class="logo-img rounded-circle"></img>
                 </div >
-                <div id="brands" class="brand-container">
-                    <div class="row">
-                        <div class="about-text col-6 col-md-6">
-                            <h1 class="text-center" >Women's Brands</h1>
-                            <p class="text-center">Here are the womens brands we have</p>
+                <div id="brands" class="container">
+                    <div class="row justify-content-around">
+                        <div class="card about-text col-4 col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Women's Brands</h5>
+
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item">Clark</li>
+                                    <li class="list-group-item">Rockport</li>
+                                    <li class="list-group-item">Finn Comfort</li>
+                                    <li class="list-group-item">Taos</li>
+                                    <li class="list-group-item">Birkenstock</li>
+                                    <li class="list-group-item">Joya</li>
+                                    <li class="list-group-item">Drew</li>
+                                    <li class="list-group-item">SAS</li>
+                                    <li class="list-group-item">Romika</li>
+                                    <li class="list-group-item">Dansko</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="about-text col-6 col-md-6">
-                            <h1 class="text-center" >Mens Brands</h1>
-                            <p class="text-center">Here are the mens brands we have</p>
+                        <div class="card about-text col-4 col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Men's Brands</h5>
+
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item">New Balance</li>
+                                    <li class="list-group-item">Rockport</li>
+                                    <li class="list-group-item">Timberland</li>
+                                    <li class="list-group-item">Dunham</li>
+                                    <li class="list-group-item">Oboz</li>
+                                    <li class="list-group-item">Clark</li>
+                                    <li class="list-group-item">Hoka</li>
+                                    <li class="list-group-item">Joseph Seibel</li>
+                                    <li class="list-group-item">Teva</li>
+                                    <li class="list-group-item">Joya</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="about-text col-6 col-md-6">
-                            <h1 class="text-center" >Kids Brands</h1>
-                            <p class="text-center">Here are the kids brands we have</p>
+
+                    </div>
+                </div>
+                <div id="brands" class="container">
+                    <div class="row justify-content-around">
+                        <div class="card about-text col-4 col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Kid's Brands</h5>
+
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item">New Balance</li>
+                                    <li class="list-group-item">Sketchers</li>
+                                    <li class="list-group-item">Stride Rite</li>
+                                    <li class="list-group-item">Tsukihoshi</li>
+                                    <li class="list-group-item">Merrell</li>
+                                    <li class="list-group-item">Saucony</li>
+                                    <li class="list-group-item">Kamik</li>
+                                    <li class="list-group-item">Emu</li>
+                                    <li class="list-group-item">Timberland</li>
+                                    <li class="list-group-item">Saltwater Sandles</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card about-text col-4 col-md-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Orthotic Brands</h5>
+
+                                <ul class="list-unstyled">
+                                    <li class="list-group-item">Powerstep</li>
+                                    <li class="list-group-item">Dedag</li>
+                                    <li class="list-group-item">New Balance</li>
+
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
 
