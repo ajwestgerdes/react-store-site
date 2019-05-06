@@ -13,7 +13,7 @@ export class Brands extends Component {
                 </div >
                 <div id="brands" class="container">
                     <div class="row justify-content-around">
-                        <div class="card about-text col-3 col-md-3">
+                        <div class="card about-text col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <div class="card-body">
                                 <h5 class="card-title">Women's Brands</h5>
 
@@ -26,7 +26,7 @@ export class Brands extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div class="card about-text col-3 col-md-3">
+                        <div class="card about-text col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <div class="card-body alt-list-group">
                                 <ul class="list-unstyled">
                                     <li class="list-group-item">Joya</li>
@@ -37,19 +37,19 @@ export class Brands extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div class="card about-text col-3 col-md-3">
+                        <div class="card about-text col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <div class="card-body">
                                 <h5 class="card-title">Men's Brands</h5>
                                 <ul class="list-unstyled">
-                                    <li class="list-group-item">New Balance <img src={require('../assets/images/nb_logo.PNG')} alt="..." class="list-img rounded-circle"></img></li>
-                                    <li class="list-group-item">Rockport<img src={require('../assets/images/dan_logo.PNG')} alt="..." class="list-img ml-auto rounded-circle"></img></li>
+                                    <li class="list-group-item justify-content-around">New Balance</li>
+                                    <li class="list-group-item justify-content-between">Rockport</li>
                                     <li class="list-group-item">Timberland</li>
                                     <li class="list-group-item">Dunham</li>
                                     <li class="list-group-item">Oboz</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="card about-text col-3 col-md-3">
+                        <div class="card about-text col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <div class="card-body alt-list-group">
                                 <ul class="list-unstyled">
                                     <li class="list-group-item">Clark</li>
@@ -64,7 +64,7 @@ export class Brands extends Component {
                 </div>
                 <div id="brands" class="container">
                     <div class="row justify-content-around">
-                        <div class="card about-text col-3 col-md-3">
+                        <div class="card about-text col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <div class="card-body">
                                 <h5 class="card-title">Kid's Brands</h5>
                                 <ul class="list-unstyled">
@@ -76,7 +76,7 @@ export class Brands extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div class="card about-text col-3 col-md-3">
+                        <div class="card about-text col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <div class="card-body alt-list-group">
                                 <ul class="list-unstyled">
                                     <li class="list-group-item">Saucony</li>
@@ -87,7 +87,7 @@ export class Brands extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div class="card about-text col-3 col-md-3">
+                        <div class="card about-text col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <div class="card-body">
                                 <h5 class="card-title">Orthotic Brands</h5>
 
@@ -98,10 +98,10 @@ export class Brands extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div class="card about-text col-3 col-md-3">
+                        <div class="card about-text col-xs-6 col-sm-6 col-md-6 col-lg-3">
                             <div class="card-body alt-list-group">
                                 <ul class="list-unstyled">
-                                    
+
                                 </ul>
                             </div>
                         </div>
