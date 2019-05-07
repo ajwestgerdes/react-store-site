@@ -5,7 +5,7 @@ export class Brands extends Component {
         return (
             <div>
                 <h2 class="text-center" >Brands</h2>
-                <div id="brands" class="container">
+                <div class="container">
                     <div class="row text-center">
                         <div class="col-lg-2 col-md-4 col-sm-4 col-6 brand-list-item">
                             <figure><img src={require('../assets/images/nb_logo.PNG')} class="list-img rounded-circle"></img>
