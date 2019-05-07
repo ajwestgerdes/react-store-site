@@ -38,17 +38,13 @@ margin: 10px 0px 20px 0px;
   margin: 30px 0px 30px 0px;
 }
 
-.logo-img {
-  height: 100px;
-  width: 100px;
-  margin: 0px 50px 0px 50px;
+.brand-list-item {
+  padding: 60px 0px 0px 0px;
 }
 
 .list-img {
-  height: 20px;
-  width: 20px;
-  margin-left: 8px;
-  text-align: right;
+  height: 100px;
+  width: 100px;
 } 
 
 .alt-list-group {
