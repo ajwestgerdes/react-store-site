@@ -52,7 +52,7 @@ class AppNavbar extends React.Component {
                             <NavLink id="nav-sm" href="#about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink id="nav-sm" href="#brands">Brands</NavLink>
+                            <NavLink id="nav-sm" href="#about">Brands</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink id="nav-sm" href="#contact">Contact</NavLink>
