@@ -3,6 +3,9 @@ html {
   font-family: 'Lobster', sans-serif;
 }
 
+a:link {
+  text-decoration: none;
+}
 
 ::-webkit-scrollbar { 
   display: none; 

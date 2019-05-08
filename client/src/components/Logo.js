@@ -4,7 +4,6 @@ import {
     CarouselItem,
     CarouselControl,
     CarouselIndicators,
-    CarouselCaption
 } from 'reactstrap';
 import img1 from '../assets/images/IMG_1404.JPG'
 import img2 from '../assets/images/IMG_1406.JPG'
@@ -71,7 +70,6 @@ export class Logo extends Component {
                     key={item.src}
                 >
                     <img src={item.src} alt={item.altText} />
-                    <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
                 </CarouselItem>
             );
         });

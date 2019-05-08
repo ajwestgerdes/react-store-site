@@ -1,8 +1,6 @@
 import React from 'react';
 import {
-    Collapse,
     Navbar,
-    NavbarToggler,
     NavbarBrand,
     Nav,
     NavItem,
@@ -46,7 +44,7 @@ class AppNavbar extends React.Component {
         return (
             <div>
                 <Navbar className="fixed-top" color="light" light expand="md">
-                    <NavbarBrand href="/">Shoe Store</NavbarBrand>
+                    <NavbarBrand href="/">Roderer Shoes</NavbarBrand>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
                             <NavLink id="nav-sm" href="#about">About</NavLink>
