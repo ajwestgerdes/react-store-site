@@ -5,8 +5,8 @@ export class About extends Component {
         return (
             <div id="about" className="about-container">
                 <div className="row">
-                    <div className="about-text col-12 ">
-                        <h1 className="text-center" >About Us</h1>
+                    <div className="about-text col-12 text-center">
+                        <img src={require('../assets/images/RodererLogo.jpg')} className="rlogo-img"></img>
                         <p className="text-center">Roderer Shoes is a shoe-fitting store.
                         We specialize in shoes for children and comfort shoes for adults, but our real specialty is service. Shoe buying isn't
                         just a transaction, but an important decision that will affect your daily health and well-being.
