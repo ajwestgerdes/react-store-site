@@ -1,4 +1,14 @@
 import React, { Component } from 'react'
+import { GoogleMap, withScriptjs, withGoogleMap } from 'react-google-maps'
+
+function GMap() {
+    <GoogleMap
+        defaultZoom={10}
+        defaultCenter={{ lat: 45, lng: -75 }}
+    />
+}
+
+const WrappedMap = withScriptjs(withGoogleMap(GMap));
 
 export class Contact extends Component {
     render() {
@@ -16,6 +26,7 @@ export class Contact extends Component {
                         <div className="col-lg-4 mr-auto text-center">
                             <div className="d-block">shoes@gmail.com</div>
                         </div>
+                        <WrappedMap googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"} />
                     </div>
                 </section>
             </div>
