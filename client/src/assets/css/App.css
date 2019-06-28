@@ -67,6 +67,11 @@ margin: 10px 0px 20px 0px;
   padding-bottom: 40px;
 }
 
+.gmap {
+  height: 200px;
+  width: 200px;
+}
+
 @media (max-width: 1450px) { 
   .carousel-item > img { 
     width: 100%; 
