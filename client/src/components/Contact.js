@@ -1,14 +1,4 @@
 import React, { Component } from 'react'
-import { GoogleMap, withScriptjs, withGoogleMap, Marker } from 'react-google-maps'
-
-const WrappedMap = withScriptjs(withGoogleMap((props) =>
-    <GoogleMap
-        defaultZoom={17}
-        defaultCenter={{ lat: 39.818270, lng: -84.232538 }}
-    >
-        {props.isMarkerShown && <Marker position={{ lat: 39.818270, lng: -84.232538 }} />}
-    </GoogleMap>
-))
 
 export class Contact extends Component {
     render() {
@@ -21,20 +11,14 @@ export class Contact extends Component {
                     <div className="text-center">9:30AM - 6:00PM</div>
                     <div className="row">
                         <div className="col-lg-3 ml-auto text-center">
-                            <WrappedMap isMarkerShown
-                                googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyD5H7UUEe1cnSKK6lukPa9Fsr95Lq0oRW8"
-                                loadingElement={<div style={{ height: `50%` }} />}
-                                containerElement={<div style={{ height: `300px` }} />}
-                                mapElement={<div style={{ height: `100%` }} />} />
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.498959103403!2d-84.23470688430639!3d39.81822939974368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88408035fab96965%3A0xd3072afc05e4c271!2s5500+N+Main+St%2C+Dayton%2C+OH+45415!5e0!3m2!1sen!2sus!4v1561688840373!5m2!1sen!2sus"></iframe>
+
                         </div>
                         <div className="col-lg-3 ml-auto text-center">
                             <div>937-275-4911</div>
                         </div>
                         <div className="col-lg-3 mr-auto text-center">
                             <div className="d-block">shoes@gmail.com</div>
-                        </div>
-                        <div style={{ width: "100vw", height: "100v" }}>
-
                         </div>
                     </div>
                 </section>
